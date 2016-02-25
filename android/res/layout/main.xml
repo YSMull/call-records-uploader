@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.83">
+        <Button
+                android:layout_width="169dp"
+                android:layout_height="91dp"
+                android:text="从服务器查询"
+                android:id="@+id/inquire_button" android:layout_weight="0.05" android:layout_gravity="left|top"
+                android:clickable="true" android:elegantTextHeight="false"/>
+        <Button android:layout_width="169dp" android:layout_height="91dp" android:text="上传数据"
+                android:id="@+id/upload_button" android:layout_weight="0.05" android:layout_gravity="right|top"
+                android:clickable="true" android:elegantTextHeight="false"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="372dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/result" android:layout_gravity="center_horizontal|bottom"/>
+    </FrameLayout>
+</LinearLayout>
+
