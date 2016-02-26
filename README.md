@@ -1,2 +1,2 @@
 # call-records-uploader
-[Demo](www.ysmull.cn/suoyou)
+[Demo](http://www.ysmull.cn/suoyou)
